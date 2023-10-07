@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity{
         recycler_View_books = findViewById(R.id.book_view);
         recycler_View_books.setLayoutManager(new LinearLayoutManager(this));
         List<BookItem> booklist = new ArrayList<>();
-        for(int i=0;i<10;i++) {
+        for(int i=0;i<30;i++) {
             booklist.add(new BookItem("软件项目管理案例教程（第4版）", "30元", R.drawable.book_2));
             booklist.add(new BookItem("创新工程实践", "25元", R.drawable.book_no_name));
             booklist.add(new BookItem("信息安全教学基础（第2版）", "35元", R.drawable.book_1));
